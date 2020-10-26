@@ -1,0 +1,42 @@
+.pets {
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.pet-section {
+  width: 40%;
+}
+
+.pet {
+  width: 100%;
+}
+
+.pet img {
+  width: 100%;
+  height: 100%;
+}
+
+.adoption-waiting-list ol li{
+  text-align: center;
+  list-style-position: inside;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .pets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
